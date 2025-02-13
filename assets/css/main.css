@@ -13326,8 +13326,11 @@ footer .hotline img {
 
 .cart_area .details_area .action {
   width: 70px;
+  text-align: center;
 }
 
 .cart_area .details_area .action a {
   font-size: 20px;
+  display: block;
+  text-align: center;
 }
