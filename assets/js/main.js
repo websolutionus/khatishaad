@@ -141,8 +141,8 @@
             infinite: true,
             speed: 1000,
             arrows: true,
-            autoplay: false,
-            slidesToShow: 10,
+            autoplay: true,
+            slidesToShow: 9,
             slidesToScroll: 1,
             loop: true,
             adaptiveHeight: true,
@@ -150,7 +150,7 @@
                 {
                     breakpoint: 1600,
                     settings: {
-                        slidesToShow: 8,
+                        slidesToShow: 7,
                         slidesToScroll: 1
                     }
                 },

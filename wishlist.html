@@ -678,180 +678,145 @@
                         <h1 class="heading-2 mb-10">Your Wishlist</h1>
                         <h6 class="text-body">There are <span class="text-brand">5</span> products in this list</h6>
                     </div>
-                    <div class="table-responsive shopping-summery">
-                        <table class="table table-wishlist">
-                            <thead>
-                                <tr class="main-heading">
-                                    <th class="custome-checkbox start pl-30">
-                                        <input class="form-check-input" type="checkbox" name="checkbox"
-                                            id="exampleCheckbox11" value="" />
-                                        <label class="form-check-label" for="exampleCheckbox11"></label>
-                                    </th>
-                                    <th scope="col" colspan="2">Product</th>
-                                    <th scope="col">Price</th>
-                                    <th scope="col">Stock Status</th>
-                                    <th scope="col">Action</th>
-                                    <th scope="col" class="end">Remove</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="custome-checkbox pl-30">
-                                        <input class="form-check-input" type="checkbox" name="checkbox"
-                                            id="exampleCheckbox1" value="" />
-                                        <label class="form-check-label" for="exampleCheckbox1"></label>
-                                    </td>
-                                    <td class="image product-thumbnail pt-40"><img
-                                            src="assets/imgs/shop/product-1-1.jpg" alt="#" /></td>
-                                    <td class="product-des product-name">
-                                        <h6><a class="product-name mb-10" href="shop-product-right.html">Field Roast
-                                                Chao Cheese Creamy Original</a></h6>
-                                        <div class="product-rate-cover">
-                                            <div class="product-rate d-inline-block">
-                                                <div class="product-rating" style="width: 90%"></div>
+                    <div class="cart_area">
+                        <ul>
+                            <li>
+                                <div class="cart_header">
+                                    <div class="product">Product</div>
+                                    <div class="details_area">
+                                        <div class="description">Details</div>
+                                        <div class="price">Price</div>
+                                        <div class="total">Stock Status</div>
+                                        <div class="quantity">Action</div>
+                                        <div class="action">Remove</div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart_body">
+                                    <div class="product">
+                                        <img src="assets/imgs/shop/product-1-1.jpg" alt="#">
+                                    </div>
+                                    <div class="details_area">
+                                        <div class="description">
+                                            <a href="#">Field Roast Chao Cheese Creamy Original</a>
+                                            <div class="product-rate-cover">
+                                                <div class="product-rate d-inline-block">
+                                                    <div class="product-rating" style="width:90%">
+                                                    </div>
+                                                </div>
+                                                <span class="font-small ml-5 text-muted"> (4.0)</span>
                                             </div>
-                                            <span class="font-small ml-5 text-muted"> (4.0)</span>
                                         </div>
-                                    </td>
-                                    <td class="price" data-title="Price">
-                                        <h3 class="text-brand">$2.51</h3>
-                                    </td>
-                                    <td class="text-center detail-info" data-title="Stock">
-                                        <span class="stock-status in-stock mb-0"> In Stock </span>
-                                    </td>
-                                    <td class="text-right" data-title="Cart">
-                                        <button class="btn btn-sm">Add to cart</button>
-                                    </td>
-                                    <td class="action text-center" data-title="Remove">
-                                        <a href="#" class="text-body"><i class="fi-rs-trash"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="custome-checkbox pl-30">
-                                        <input class="form-check-input" type="checkbox" name="checkbox"
-                                            id="exampleCheckbox2" value="" />
-                                        <label class="form-check-label" for="exampleCheckbox2"></label>
-                                    </td>
-                                    <td class="image product-thumbnail"><img src="assets/imgs/shop/product-2-1.jpg"
-                                            alt="#" /></td>
-                                    <td class="product-des product-name">
-                                        <h6><a class="product-name mb-10" href="shop-product-right.html">Blue Diamond
-                                                Almonds Lightly Salted</a></h6>
-                                        <div class="product-rate-cover">
-                                            <div class="product-rate d-inline-block">
-                                                <div class="product-rating" style="width: 90%"></div>
+                                        <div class="price">
+                                            <h5>$2.51</h5>
+                                        </div>
+                                        <div class="total">
+                                            <span class="stock-status in-stock mb-0"> In Stock </span>
+                                        </div>
+                                        <div class=" quantity">
+                                            <button class="btn btn-sm">Add to cart</button>
+                                        </div>
+                                        <div class="action">
+                                            <a href="#" class="delete"><i class="fi-rs-trash"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart_body">
+                                    <div class="product">
+                                        <img src="assets/imgs/shop/product-1-1.jpg" alt="#">
+                                    </div>
+                                    <div class="details_area">
+                                        <div class="description">
+                                            <a href="#">Field Roast Chao Cheese Creamy Original</a>
+                                            <div class="product-rate-cover">
+                                                <div class="product-rate d-inline-block">
+                                                    <div class="product-rating" style="width:90%">
+                                                    </div>
+                                                </div>
+                                                <span class="font-small ml-5 text-muted"> (4.0)</span>
                                             </div>
-                                            <span class="font-small ml-5 text-muted"> (4.0)</span>
                                         </div>
-                                    </td>
-                                    <td class="price" data-title="Price">
-                                        <h3 class="text-brand">$3.2</h3>
-                                    </td>
-                                    <td class="text-center detail-info" data-title="Stock">
-                                        <span class="stock-status in-stock mb-0"> In Stock </span>
-                                    </td>
-                                    <td class="text-right" data-title="Cart">
-                                        <button class="btn btn-sm">Add to cart</button>
-                                    </td>
-                                    <td class="action text-center" data-title="Remove">
-                                        <a href="#" class="text-body"><i class="fi-rs-trash"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="custome-checkbox pl-30">
-                                        <input class="form-check-input" type="checkbox" name="checkbox"
-                                            id="exampleCheckbox3" value="" />
-                                        <label class="form-check-label" for="exampleCheckbox3"></label>
-                                    </td>
-                                    <td class="image product-thumbnail"><img src="assets/imgs/shop/product-3-1.jpg"
-                                            alt="#" /></td>
-                                    <td class="product-des product-name">
-                                        <h6><a class="product-name mb-10" href="shop-product-right.html">Fresh Organic
-                                                Mustard Leaves Bell Pepper</a></h6>
-                                        <div class="product-rate-cover">
-                                            <div class="product-rate d-inline-block">
-                                                <div class="product-rating" style="width: 90%"></div>
+                                        <div class="price">
+                                            <h5>$2.51</h5>
+                                        </div>
+                                        <div class="total">
+                                            <span class="stock-status out-stock mb-0"> Out Stock </span>
+                                        </div>
+                                        <div class=" quantity">
+                                            <button class="btn btn-sm">Add to cart</button>
+                                        </div>
+                                        <div class="action">
+                                            <a href="#" class="delete"><i class="fi-rs-trash"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart_body">
+                                    <div class="product">
+                                        <img src="assets/imgs/shop/product-1-1.jpg" alt="#">
+                                    </div>
+                                    <div class="details_area">
+                                        <div class="description">
+                                            <a href="#">Field Roast Chao Cheese Creamy Original</a>
+                                            <div class="product-rate-cover">
+                                                <div class="product-rate d-inline-block">
+                                                    <div class="product-rating" style="width:90%">
+                                                    </div>
+                                                </div>
+                                                <span class="font-small ml-5 text-muted"> (4.0)</span>
                                             </div>
-                                            <span class="font-small ml-5 text-muted"> (4.0)</span>
                                         </div>
-                                    </td>
-                                    <td class="price" data-title="Price">
-                                        <h3 class="text-brand">$2.43</h3>
-                                    </td>
-                                    <td class="text-center detail-info" data-title="Stock">
-                                        <span class="stock-status in-stock mb-0"> In Stock </span>
-                                    </td>
-                                    <td class="text-right" data-title="Cart">
-                                        <button class="btn btn-sm">Add to cart</button>
-                                    </td>
-                                    <td class="action text-center" data-title="Remove">
-                                        <a href="#" class="text-body"><i class="fi-rs-trash"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="custome-checkbox pl-30">
-                                        <input class="form-check-input" type="checkbox" name="checkbox"
-                                            id="exampleCheckbox4" value="" />
-                                        <label class="form-check-label" for="exampleCheckbox4"></label>
-                                    </td>
-                                    <td class="image product-thumbnail"><img src="assets/imgs/shop/product-4-1.jpg"
-                                            alt="#" /></td>
-                                    <td class="product-des product-name">
-                                        <h6><a class="product-name mb-10" href="shop-product-right.html">Angie’s
-                                                Boomchickapop Sweet & Salty </a></h6>
-                                        <div class="product-rate-cover">
-                                            <div class="product-rate d-inline-block">
-                                                <div class="product-rating" style="width: 90%"></div>
+                                        <div class="price">
+                                            <h5>$2.51</h5>
+                                        </div>
+                                        <div class="total">
+                                            <span class="stock-status in-stock mb-0"> In Stock </span>
+                                        </div>
+                                        <div class=" quantity">
+                                            <button class="btn btn-sm">Add to cart</button>
+                                        </div>
+                                        <div class="action">
+                                            <a href="#" class="delete"><i class="fi-rs-trash"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart_body">
+                                    <div class="product">
+                                        <img src="assets/imgs/shop/product-1-1.jpg" alt="#">
+                                    </div>
+                                    <div class="details_area">
+                                        <div class="description">
+                                            <a href="#">Field Roast Chao Cheese Creamy Original</a>
+                                            <div class="product-rate-cover">
+                                                <div class="product-rate d-inline-block">
+                                                    <div class="product-rating" style="width:90%">
+                                                    </div>
+                                                </div>
+                                                <span class="font-small ml-5 text-muted"> (4.0)</span>
                                             </div>
-                                            <span class="font-small ml-5 text-muted"> (4.0)</span>
                                         </div>
-                                    </td>
-                                    <td class="price" data-title="Price">
-                                        <h3 class="text-brand">$3.21</h3>
-                                    </td>
-                                    <td class="text-center detail-info" data-title="Stock">
-                                        <span class="stock-status out-stock mb-0"> Out Stock </span>
-                                    </td>
-                                    <td class="text-right" data-title="Cart">
-                                        <button class="btn btn-sm btn-secondary">Contact Us</button>
-                                    </td>
-                                    <td class="action text-center" data-title="Remove">
-                                        <a href="#" class="text-body"><i class="fi-rs-trash"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="custome-checkbox pl-30">
-                                        <input class="form-check-input" type="checkbox" name="checkbox"
-                                            id="exampleCheckbox5" value="" />
-                                        <label class="form-check-label" for="exampleCheckbox5"></label>
-                                    </td>
-                                    <td class="image product-thumbnail"><img src="assets/imgs/shop/product-5-1.jpg"
-                                            alt="#" /></td>
-                                    <td class="product-des product-name">
-                                        <h6><a class="product-name mb-10" href="shop-product-right.html">Foster Farms
-                                                Takeout Crispy Classic</a></h6>
-                                        <div class="product-rate-cover">
-                                            <div class="product-rate d-inline-block">
-                                                <div class="product-rating" style="width: 90%"></div>
-                                            </div>
-                                            <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                        <div class="price">
+                                            <h5>$2.51</h5>
                                         </div>
-                                    </td>
-                                    <td class="price" data-title="Price">
-                                        <h3 class="text-brand">$3.17</h3>
-                                    </td>
-                                    <td class="text-center detail-info" data-title="Stock">
-                                        <span class="stock-status in-stock mb-0"> In Stock </span>
-                                    </td>
-                                    <td class="text-right" data-title="Cart">
-                                        <button class="btn btn-sm">Add to cart</button>
-                                    </td>
-                                    <td class="action text-center" data-title="Remove">
-                                        <a href="#" class="text-body"><i class="fi-rs-trash"></i></a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                        <div class="total">
+                                            <span class="stock-status in-stock mb-0"> In Stock </span>
+                                        </div>
+                                        <div class=" quantity">
+                                            <button class="btn btn-sm">Add to cart</button>
+                                        </div>
+                                        <div class="action">
+                                            <a href="#" class="delete"><i class="fi-rs-trash"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -859,7 +824,7 @@
     </main>
 
     <footer class="main">
-        <section class="newsletter mb-15 wow animate__animated animate__fadeIn">
+        <section class="newsletter mb-15 ">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -882,90 +847,11 @@
                 </div>
             </div>
         </section>
-        <section class="featured section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6 mb-md-4 mb-xl-0">
-                        <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp"
-                            data-wow-delay="0">
-                            <div class="banner-icon">
-                                <img src="assets/imgs/theme/icons/icon-1.svg" alt="" />
-                            </div>
-                            <div class="banner-text">
-                                <h3 class="icon-box-title">Best prices & offers</h3>
-                                <p>Orders $50 or more</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6">
-                        <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp"
-                            data-wow-delay=".1s">
-                            <div class="banner-icon">
-                                <img src="assets/imgs/theme/icons/icon-2.svg" alt="" />
-                            </div>
-                            <div class="banner-text">
-                                <h3 class="icon-box-title">Free delivery</h3>
-                                <p>24/7 amazing services</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6">
-                        <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp"
-                            data-wow-delay=".2s">
-                            <div class="banner-icon">
-                                <img src="assets/imgs/theme/icons/icon-3.svg" alt="" />
-                            </div>
-                            <div class="banner-text">
-                                <h3 class="icon-box-title">Great daily deal</h3>
-                                <p>When you sign up</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6">
-                        <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp"
-                            data-wow-delay=".3s">
-                            <div class="banner-icon">
-                                <img src="assets/imgs/theme/icons/icon-4.svg" alt="" />
-                            </div>
-                            <div class="banner-text">
-                                <h3 class="icon-box-title">Wide assortment</h3>
-                                <p>Mega Discounts</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6">
-                        <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp"
-                            data-wow-delay=".4s">
-                            <div class="banner-icon">
-                                <img src="assets/imgs/theme/icons/icon-5.svg" alt="" />
-                            </div>
-                            <div class="banner-text">
-                                <h3 class="icon-box-title">Easy returns</h3>
-                                <p>Within 30 days</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6 d-xl-none">
-                        <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp"
-                            data-wow-delay=".5s">
-                            <div class="banner-icon">
-                                <img src="assets/imgs/theme/icons/icon-6.svg" alt="" />
-                            </div>
-                            <div class="banner-text">
-                                <h3 class="icon-box-title">Safe delivery</h3>
-                                <p>Within 30 days</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section class="section-padding footer-mid">
             <div class="container pt-15 pb-20">
                 <div class="row">
                     <div class="col-xl-3 col-lg-3">
-                        <div class="widget-about font-md mb-md-3 mb-lg-3 mb-xl-0 wow animate__animated animate__fadeInUp"
-                            data-wow-delay="0">
+                        <div class="widget-about font-md mb-md-3 mb-lg-3 mb-xl-0 ">
                             <div class="logo mb-30">
                                 <a href="index.html" class="mb-15"><img src="assets/imgs/theme/logo.svg"
                                         alt="logo" /></a>
@@ -985,7 +871,7 @@
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-2 col-sm-6">
-                        <div class="footer-link-widget wow animate__animated animate__fadeInUp" data-wow-delay=".1s>">
+                        <div class="footer-link-widget">
                             <h4 class="widget-title">Company</h4>
                             <ul class="footer-list mb-sm-5 mb-md-0">
                                 <li><a href="#">About Us</a></li>
@@ -999,7 +885,7 @@
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-2 col-sm-6">
-                        <div class="footer-link-widget wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
+                        <div class="footer-link-widget ">
                             <h4 class="widget-title">Account</h4>
                             <ul class="footer-list mb-sm-5 mb-md-0">
                                 <li><a href="#">Sign In</a></li>
@@ -1013,7 +899,7 @@
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-2 col-sm-6">
-                        <div class="footer-link-widget wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                        <div class="footer-link-widget">
                             <h4 class="widget-title">Corporate</h4>
                             <ul class="footer-list mb-sm-5 mb-md-0">
                                 <li><a href="#">Become a Vendor</a></li>
@@ -1027,8 +913,7 @@
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-3 col-sm-6">
-                        <div class="footer-link-widget widget-install-app wow animate__animated animate__fadeInUp"
-                            data-wow-delay=".5s">
+                        <div class="footer-link-widget widget-install-app ">
                             <h4 class="widget-title">Install App</h4>
                             <p class="">From App Store or Google Play</p>
                             <div class="download-app">
@@ -1044,7 +929,7 @@
                 </div>
             </div>
         </section>
-        <div class="container pb-30 wow animate__animated animate__fadeInUp" data-wow-delay="0">
+        <div class="container pb-30 ">
             <div class="row align-items-center">
                 <div class="col-12 mb-30">
                     <div class="footer-bottom"></div>
