@@ -53,7 +53,8 @@ thead {
 
 ol,
 ul {
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 }
 
 article,
@@ -2467,6 +2468,9 @@ input.qty-val {
   padding: 15px 30px;
   font-family: "Quicksand", sans-serif;
   font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .dashboard-menu ul li a i {
@@ -2474,6 +2478,11 @@ input.qty-val {
   font-size: 19px;
   opacity: 0.6;
 }
+
+.dashboard-menu ul li a:hover {
+  color: #3BB77E;
+}
+
 
 .dashboard-menu ul li a.active {
   color: #fff;
@@ -7970,7 +7979,7 @@ span.fi-rs-apps {
 
 .main-menu>nav>ul>li.hot-deals img {
   position: relative;
-  margin-bottom: -4px;
+  margin-top: -4px;
   margin-right: 8px;
 }
 
