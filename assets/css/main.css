@@ -8997,6 +8997,7 @@ footer .mobile-social-icon {
 footer .mobile-social-icon h6 {
   display: inline-block;
   margin-right: 15px;
+  margin-bottom: 0;
 }
 
 footer .hotline {
